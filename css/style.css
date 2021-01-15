@@ -34,7 +34,7 @@ h5 {
 
 .box{
   width: 14.7vw;
-  height: 180px;
+  height: 250px;
   display: inline-block;
   /* background-color: blue; */
   background-image: url("../img/pattern.png");
@@ -52,7 +52,7 @@ h5 {
 .bicicletta{
   color: orange;
   bottom: 8px;
-  right: 50px;
+  left: 50px;
 }
 #box-1:hover, #box-4:hover{
   background-color: white;
@@ -72,7 +72,7 @@ h5 {
 .nave{
   color: green;
   bottom: 8px;
-  right: 30px;
+  left: 50px;
 }
 #box-2:hover{
   background-color: white;
@@ -87,16 +87,55 @@ h5 {
 
 
 .mongolfiera{
-  color: blue;
+  color: purple;
   bottom: 8px;
-  right: 30px;
+  left: 50px;
 }
-#box-3:hover{
+#box-3:hover, #box-6:hover{
   background-color: white;
   background-image: url("../img/noun_air_balloon_3134741.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #box-3:hover .mongolfiera{
+  display: block;
+}
+#box-6:hover .mongolfiera{
+  display: block;
+}
+
+
+.sottomarino{
+  color: red;
+  bottom: 8px;
+  left: 50px;
+}
+#box-5:hover, #box-7:hover{
+  background-color: white;
+  background-image: url("../img/noun_Submarine_3134738.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#box-5:hover .sottomarino{
+  display: block;
+}
+#box-7:hover .sottomarino{
+  display: block;
+}
+
+
+
+.trattore{
+  color: blue;
+  bottom: 8px;
+  left: 50px;
+}
+#box-8:hover{
+  background-color: white;
+  background-image: url("../img/noun_Tractor_3134797.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#box-8:hover .trattore{
   display: block;
 }
