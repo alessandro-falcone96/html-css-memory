@@ -45,17 +45,58 @@ h5 {
 .contenuto{
   display: none;
   font-size: 20px;
-  color: orange;
   position: absolute;
-  bottom: 8px;
-  right: 50px;
 
 }
-#box-1:hover{
+
+.bicicletta{
+  color: orange;
+  bottom: 8px;
+  right: 50px;
+}
+#box-1:hover, #box-4:hover{
   background-color: white;
   background-image: url("../img/noun_Bicycle_3134821.png");
   background-size: contain;
+  background-repeat: no-repeat;
 }
-#box-1:hover #bicicletta {
+#box-1:hover .bicicletta {
   display:block;
+}
+#box-4:hover .bicicletta {
+  display:block;
+}
+
+
+
+.nave{
+  color: green;
+  bottom: 8px;
+  right: 30px;
+}
+#box-2:hover{
+  background-color: white;
+  background-image: url("../img/noun_Cruise_Ship_3134824.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#box-2:hover .nave {
+  display:block;
+}
+
+
+
+.mongolfiera{
+  color: blue;
+  bottom: 8px;
+  right: 30px;
+}
+#box-3:hover{
+  background-color: white;
+  background-image: url("../img/noun_air_balloon_3134741.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#box-3:hover .mongolfiera{
+  display: block;
 }
