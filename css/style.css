@@ -74,13 +74,16 @@ h5 {
   bottom: 8px;
   left: 50px;
 }
-#box-2:hover{
+#box-2:hover, #box-10:hover{
   background-color: white;
   background-image: url("../img/noun_Cruise_Ship_3134824.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #box-2:hover .nave {
+  display:block;
+}
+#box-10:hover .nave {
   display:block;
 }
 
@@ -130,12 +133,35 @@ h5 {
   bottom: 8px;
   left: 50px;
 }
-#box-8:hover{
+#box-8:hover, #box-9:hover{
   background-color: white;
   background-image: url("../img/noun_Tractor_3134797.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #box-8:hover .trattore{
+  display: block;
+}
+#box-9:hover .trattore{
+  display: block;
+}
+
+
+
+.tram{
+  color: yellow;
+  bottom: 8px;
+  left: 50px;
+}
+#box-11:hover, #box-12:hover{
+  background-color: white;
+  background-image: url("../img/noun_Tram_3134750.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#box-11:hover .tram{
+  display: block;
+}
+#box-12:hover .tram{
   display: block;
 }
