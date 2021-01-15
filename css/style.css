@@ -29,15 +29,33 @@ h5 {
 .contenitore{
   width: 60vw;
   margin: auto;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 .box{
   width: 14.7vw;
-  height: 200px;
+  height: 180px;
   display: inline-block;
-  background-color: blue;
+  /* background-color: blue; */
   background-image: url("../img/pattern.png");
   background-size: contain;
   border-radius: 15px;
+  position: relative;
+}
+.contenuto{
+  display: none;
+  font-size: 20px;
+  color: orange;
+  position: absolute;
+  bottom: 8px;
+  right: 50px;
+
+}
+#box-1:hover{
+  background-color: white;
+  background-image: url("../img/noun_Bicycle_3134821.png");
+  background-size: contain;
+}
+#box-1:hover #bicicletta {
+  display:block;
 }
