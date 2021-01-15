@@ -14,11 +14,11 @@ header {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 75px;
   text-align: center;
   padding: 10px;
   color: white;
-  background-color: red;
+  /* background-color: red; */
 }
 
 h5 {
@@ -57,7 +57,6 @@ h5 {
 #box-1:hover, #box-4:hover{
   background-color: white;
   background-image: url("../img/noun_Bicycle_3134821.png");
-  background-size: contain;
   background-repeat: no-repeat;
 }
 #box-1:hover .bicicletta {
@@ -77,7 +76,6 @@ h5 {
 #box-2:hover, #box-10:hover{
   background-color: white;
   background-image: url("../img/noun_Cruise_Ship_3134824.png");
-  background-size: contain;
   background-repeat: no-repeat;
 }
 #box-2:hover .nave {
@@ -94,16 +92,12 @@ h5 {
   bottom: 8px;
   left: 50px;
 }
-#box-3:hover, #box-6:hover{
+#box-3:hover {
   background-color: white;
   background-image: url("../img/noun_air_balloon_3134741.png");
-  background-size: contain;
   background-repeat: no-repeat;
 }
 #box-3:hover .mongolfiera{
-  display: block;
-}
-#box-6:hover .mongolfiera{
   display: block;
 }
 
@@ -116,7 +110,6 @@ h5 {
 #box-5:hover, #box-7:hover{
   background-color: white;
   background-image: url("../img/noun_Submarine_3134738.png");
-  background-size: contain;
   background-repeat: no-repeat;
 }
 #box-5:hover .sottomarino{
@@ -136,7 +129,6 @@ h5 {
 #box-8:hover, #box-9:hover{
   background-color: white;
   background-image: url("../img/noun_Tractor_3134797.png");
-  background-size: contain;
   background-repeat: no-repeat;
 }
 #box-8:hover .trattore{
@@ -156,7 +148,6 @@ h5 {
 #box-11:hover, #box-12:hover{
   background-color: white;
   background-image: url("../img/noun_Tram_3134750.png");
-  background-size: contain;
   background-repeat: no-repeat;
 }
 #box-11:hover .tram{
@@ -164,4 +155,15 @@ h5 {
 }
 #box-12:hover .tram{
   display: block;
+}
+
+
+.contenuto-speciale{
+  font-size: 20px;
+  position: absolute;
+}
+#box-6 {
+  background-color: white;
+  background-image: url("../img/noun_air_balloon_3134741.png");
+  background-repeat: no-repeat;
 }
