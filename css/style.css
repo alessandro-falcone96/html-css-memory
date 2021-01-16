@@ -19,6 +19,7 @@ h1 {
   padding: 10px;
   color: white;
   /* background-color: red; */
+  text-shadow: 1px 1px 5px black;
 }
 
 h5 {
@@ -33,7 +34,7 @@ h5 {
 }
 
 .box{
-  width: 14.7vw;
+  width: 13vw;
   height: 250px;
   display: inline-block;
   /* background-color: blue; */
@@ -41,6 +42,8 @@ h5 {
   background-size: contain;
   border-radius: 15px;
   position: relative;
+  box-shadow: 2px 2px 5px black;
+  margin: 12.5px;
 }
 .contenuto{
   display: none;
